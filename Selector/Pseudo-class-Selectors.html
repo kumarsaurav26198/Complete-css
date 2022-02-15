@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-class_Selectors</title>
+    <style>
+        /* article ::first-letter {
+            font-style: italic;
+            color: black;
+            font-size: 80px;
+            font-weight: bold;
+        }
+
+        article :first-of-type {
+            font-size: 40px;
+            color: chartreuse;
+        } */
+
+
+        .para :first-of-type {
+            color: chartreuse;
+            font-style: italic;
+            /* color: black; */
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .para ::first-letter {
+            color: black;
+            font-weight: bold;
+            font-size: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo-class Selectors</h1>
+    <article class="para">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sunt commodi nemo, suscipit ratione harum
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+    </article>
+
+
+    <h1 class="heading!">
+        <h2 class="headimg2">
+            <h3 class="heading3">
+                <h4 class="heading5">Heloo</h4>
+            </h3>
+        </h2>
+    </h1>
+
+
+    <!-- 
+    div.first>div.second{hi}>div.third{hello}>div.fourth{hey}>div.fifth{bye}
+
+     -->
+    <div class="first">
+        <div class="second">hi
+            <div class="third">hello
+                <div class="fourth">hey
+                    <div class="fifth">bye</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

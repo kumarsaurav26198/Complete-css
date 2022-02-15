@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .boxes {
+            border: 3px solid lightblue;
+
+        }
+
+        .box {
+            width: 5rem;
+            height: 5rem;
+        }
+
+        .box-one {
+            background-color: tomato;
+            position: relative;
+            left: 5rem;
+            top: 2.5rem;
+            z-index: 3;
+        }
+
+        .box-two {
+            background-color: dodgerblue;
+            position: relative;
+            left: 7.5rem;
+            z-index: 2;
+        }
+
+        .box-three {
+            background-color: green;
+            position: relative;
+            left: 10rem;
+            top: -2.5rem;
+            /* z-index: 4; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box box-one"></div>
+        <div class="box box-two"></div>
+        <div class="box box-three"></div>
+    </div>
+</body>
+
+</html>

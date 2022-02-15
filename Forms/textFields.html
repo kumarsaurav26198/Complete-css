@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Fields Form</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+            padding-left: 1rem;
+            /* padding-top: 0; */
+
+        }
+
+        label {
+            display: block;
+        }
+
+
+        input {
+            width: 50%;
+            border: 1px solid #7db0fb;
+            border-radius: 5px;
+            padding: 0.3rem 0.4rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            height: 22px;
+            /* border-color: #7db0fb; */
+            margin-bottom: 0.5rem;
+
+        }
+
+        /* input[type="text"]:focus,
+        input[type="email"]:focus {
+            border-color: #7db0fb;
+            outline: 0;
+            box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+        } */
+        .cheackbox {
+            display: flex;
+            /* justify-content: start; */
+            float: start;
+            color: yellow;
+        }
+
+        textarea {
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Magnet Saurav">
+        </div>
+        <div class="form-group">
+            <label for="number">Number</label>
+            <input id="number" type="number">
+        </div>
+        <div class="form-group">
+            <label for="">Email </label>
+            <input id="email" type="email">
+        </div>
+        <div class="form-group">
+            <label for="">Email </label>
+            <input id="email" type="email" value="magnetsaurav@gmail.com" placeholder="Magnet Saurav">
+        </div>
+        <div class="form-group">
+            <label for="">Email </label>
+            <input id="email" type="email" readonly value="magnetsaurav@gmail.com">
+        </div>
+        <div class="from-group">
+            <label for="password">Password</label>
+            <input type="password" name="" id="">
+        </div>
+        <div class="form-group">
+            <label for="time">Time</label>
+            <input type="time" name="" id="">
+        </div>
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" name="" id="">
+
+        </div>
+        <div class="form-group">
+            <label for="color">Color</label>
+            <input type="color" name="" id="">
+        </div>
+        <div class="form-group">
+            <label for="">Text Area</label>
+            <textarea cols="60" rows="10"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="cheackbox">cheackbox</label>
+            <input type="checkbox" name="" id="cheackbox" class="cheackbox">
+        </div>
+
+    </form>
+</body>
+
+</html>

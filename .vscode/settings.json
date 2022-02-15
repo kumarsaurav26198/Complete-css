@@ -1,0 +1,8 @@
+{
+    "diffEditor.wordWrap": "on",
+    "editor.accessibilitySupport": "on",
+    "editor.suggest.localityBonus": true,
+    "editor.wordBasedSuggestionsMode": "allDocuments",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 50
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Pratice</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template: repeat(6, 400px)/repeat(5, 200px);
+            border: 10px solid green;
+            background-color: gold;
+            /* width: 100wh; */
+            row-gap: 100px;
+            justify-content: space-between;
+            padding: 10px;
+            /* align-content: center; */
+            padding-top: 10px;
+        }
+
+        .box {
+            background-color: red;
+            border: 2px solid blue;
+            border-radius: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 200px;
+            font-weight: bolder;
+            font-style: italic;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">A</div>
+        <div class="box">B</div>
+
+
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+        <div class="box">B</div>
+
+    </div>
+
+</body>
+
+</html>
+<!--  .container {
+            display: grid;
+            /* grid-template-rows: 10rem 10rem 10rem;
+            grid-template-columns: 10rem 10rem; */
+            grid-template: repeat(3, 20rem)/repeat(2, 20rem);
+            border: 3px solid lightpink;
+        }
+
+        .box {
+            height: 100%;
+            width: 100%;
+            background-color: gold;
+        } -->

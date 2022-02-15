@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        html {
+            font-size: 62.5%;
+            padding: 50px;
+
+        }
+
+        p {
+            padding: 10px 20px 30px 40px;
+            border: 5px solid red;
+            font-size: 30px;
+            margin: 40px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: gold;
+            padding: 10px;
+            border: 2px solid green;
+            margin: 30px;
+            box-sizing: border-box;
+
+        }
+
+        .green {
+            height: 100px;
+            width: 100px;
+            border: 2px solid green;
+            /* overflow: auto; */
+            /* overflow: scroll; */
+            overflow: hidden;
+        }
+
+        .ring {
+            width: 50rem;
+            height: 20vh;
+            background-color: red;
+            border: 2px solid blueviolet;
+        }
+
+
+        .boxes {
+            border: 3px solid lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box Model</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, consequuntur.</p>
+    <h1>Sizing Element</h1>
+
+    <div class="box">
+
+    </div>
+    <h1>Overflowing</h1>
+    <div class="green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur sint magni consectetur, esse nisi
+        commodi sequi nostrum itaque voluptas, et beatae quisquam autem! Ratione labore nemo illo temporibus magni autem
+        minus hic velit voluptatem! Quo mollitia earum sapiente obcaecati optio doloribus eum eius delectus, esse eos,
+        nostrum unde culpa!
+    </div>
+    <h1>Measurement Units</h1>
+    <div class="ring">
+
+    </div>
+
+</body>
+
+</html>
